@@ -10,5 +10,5 @@ class ChattyStudent < Student
   #     10.times do |x|
   #     puts "Pick  me!"
   # end
-  # end
+  end
 end
