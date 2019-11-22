@@ -6,9 +6,9 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    super
-      10.times do |x|
-      puts "Pick  me!"
-  end
-  end
+    super * 10 
+  #     10.times do |x|
+  #     puts "Pick  me!"
+  # end
+  # end
 end
